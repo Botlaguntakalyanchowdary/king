@@ -9,6 +9,7 @@ def login(request):
         password = request.POST['password']
         print(email)
         print(password)
+        print("manoj")
     return render(request,'login.html')
 
 def createaccounts(request):
